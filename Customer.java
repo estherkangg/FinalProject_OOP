@@ -12,7 +12,7 @@ public class Customer {
     private int age;
     public List<Flight> flightsRegisteredByUser;
     public List<Integer> numOfTicketsBookedByUser;
-    public static final List<Customer> customerCollection = User.getCustomersCollection();
+    public static final List<Customer> customerCollection = user.getCustomersCollection();
 
     //        ************************************************************ Behaviours/Methods ************************************************************
 
@@ -260,70 +260,38 @@ public class Customer {
         if (option == 1) {
             artWork = """
                                         
-                    d8b   db d88888b db   d8b   db       .o88b. db    db .d8888. d888888b  .d88b.  .88b  d88. d88888b d8888b.\s
-                    888o  88 88'     88   I8I   88      d8P  Y8 88    88 88'  YP `~~88~~' .8P  Y8. 88'YbdP`88 88'     88  `8D\s
-                    88V8o 88 88ooooo 88   I8I   88      8P      88    88 `8bo.      88    88    88 88  88  88 88ooooo 88oobY'\s
-                    88 V8o88 88~~~~~ Y8   I8I   88      8b      88    88   `Y8b.    88    88    88 88  88  88 88~~~~~ 88`8b  \s
-                    88  V888 88.     `8b d8'8b d8'      Y8b  d8 88b  d88 db   8D    88    `8b  d8' 88  88  88 88.     88 `88.\s
-                    VP   V8P Y88888P  `8b8' `8d8'        `Y88P' ~Y8888P' `8888Y'    YP     `Y88P'  YP  YP  YP Y88888P 88   YD\s
-                                                                                                                             \s
-                                                                                                                             \s
+                    
+█▄░█ █▀▀ █░█░█   █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █▀▀ █▀█
+█░▀█ ██▄ ▀▄▀▄▀   █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ ██▄ █▀▄
                     """;
         } else if (option == 2) {
             artWork = """
                                         
-                    .d8888. d88888b  .d8b.  d8888b.  .o88b. db   db       .o88b. db    db .d8888. d888888b  .d88b.  .88b  d88. d88888b d8888b.\s
-                    88'  YP 88'     d8' `8b 88  `8D d8P  Y8 88   88      d8P  Y8 88    88 88'  YP `~~88~~' .8P  Y8. 88'YbdP`88 88'     88  `8D\s
-                    `8bo.   88ooooo 88ooo88 88oobY' 8P      88ooo88      8P      88    88 `8bo.      88    88    88 88  88  88 88ooooo 88oobY'\s
-                      `Y8b. 88~~~~~ 88~~~88 88`8b   8b      88~~~88      8b      88    88   `Y8b.    88    88    88 88  88  88 88~~~~~ 88`8b  \s
-                    db   8D 88.     88   88 88 `88. Y8b  d8 88   88      Y8b  d8 88b  d88 db   8D    88    `8b  d8' 88  88  88 88.     88 `88.\s
-                    `8888Y' Y88888P YP   YP 88   YD  `Y88P' YP   YP       `Y88P' ~Y8888P' `8888Y'    YP     `Y88P'  YP  YP  YP Y88888P 88   YD\s
-                                                                                                                                              \s
-                                                                                                                                              \s
+            
+█▀ █▀▀ ▄▀█ █▀█ █▀▀ █░█   █▀▀ █░█ █▀ ▀█▀ █▀█ █▀▄▀█ █▀▀ █▀█
+▄█ ██▄ █▀█ █▀▄ █▄▄ █▀█   █▄▄ █▄█ ▄█ ░█░ █▄█ █░▀░█ ██▄ █▀▄
                     """;
         } else if (option == 3) {
             artWork = """
                                         
-                    .d8888. db   db  .d88b.  db   d8b   db d888888b d8b   db  d888b        .d8b.  db      db           d8888b.  .d8b.  .d8888. .d8888. d88888b d8b   db  d888b  d88888b d8888b. .d8888.\s
-                    88'  YP 88   88 .8P  Y8. 88   I8I   88   `88'   888o  88 88' Y8b      d8' `8b 88      88           88  `8D d8' `8b 88'  YP 88'  YP 88'     888o  88 88' Y8b 88'     88  `8D 88'  YP\s
-                    `8bo.   88ooo88 88    88 88   I8I   88    88    88V8o 88 88           88ooo88 88      88           88oodD' 88ooo88 `8bo.   `8bo.   88ooooo 88V8o 88 88      88ooooo 88oobY' `8bo.  \s
-                      `Y8b. 88~~~88 88    88 Y8   I8I   88    88    88 V8o88 88  ooo      88~~~88 88      88           88~~~   88~~~88   `Y8b.   `Y8b. 88~~~~~ 88 V8o88 88  ooo 88~~~~~ 88`8b     `Y8b.\s
-                    db   8D 88   88 `8b  d8' `8b d8'8b d8'   .88.   88  V888 88. ~8~      88   88 88booo. 88booo.      88      88   88 db   8D db   8D 88.     88  V888 88. ~8~ 88.     88 `88. db   8D\s
-                    `8888Y' YP   YP  `Y88P'   `8b8' `8d8'  Y888888P VP   V8P  Y888P       YP   YP Y88888P Y88888P      88      YP   YP `8888Y' `8888Y' Y88888P VP   V8P  Y888P  Y88888P 88   YD `8888Y'\s
-                                                                                                                                                                                                       \s
-                                                                                                                                                                                                       \s
+▄▀█ █░░ █░░   █▀█ ▄▀█ █▀ █▀ █▀▀ █▄░█ █▀▀ █▀▀ █▀█ █▀
+█▀█ █▄▄ █▄▄   █▀▀ █▀█ ▄█ ▄█ ██▄ █░▀█ █▄█ ██▄ █▀▄ ▄█
                     """;
         } else if (option == 4) {
             artWork = """
                                         
-                    d8888b. d88888b  d888b  d888888b .d8888. d888888b d88888b d8888b. d88888b d8888b.      d8888b.  .d8b.  .d8888. .d8888. d88888b d8b   db  d888b  d88888b d8888b. .d8888.     \s
-                    88  `8D 88'     88' Y8b   `88'   88'  YP `~~88~~' 88'     88  `8D 88'     88  `8D      88  `8D d8' `8b 88'  YP 88'  YP 88'     888o  88 88' Y8b 88'     88  `8D 88'  YP     \s
-                    88oobY' 88ooooo 88         88    `8bo.      88    88ooooo 88oobY' 88ooooo 88   88      88oodD' 88ooo88 `8bo.   `8bo.   88ooooo 88V8o 88 88      88ooooo 88oobY' `8bo.       \s
-                    88`8b   88~~~~~ 88  ooo    88      `Y8b.    88    88~~~~~ 88`8b   88~~~~~ 88   88      88~~~   88~~~88   `Y8b.   `Y8b. 88~~~~~ 88 V8o88 88  ooo 88~~~~~ 88`8b     `Y8b.     \s
-                    88 `88. 88.     88. ~8~   .88.   db   8D    88    88.     88 `88. 88.     88  .8D      88      88   88 db   8D db   8D 88.     88  V888 88. ~8~ 88.     88 `88. db   8D     \s
-                    88   YD Y88888P  Y888P  Y888888P `8888Y'    YP    Y88888P 88   YD Y88888P Y8888D'      88      YP   YP `8888Y' `8888Y' Y88888P VP   V8P  Y888P  Y88888P 88   YD `8888Y' \s
-                                        
-                       \s
-                    d888888b d8b   db      d88888b db      d888888b  d888b  db   db d888888b                                                                                                    \s
-                      `88'   888o  88      88'     88        `88'   88' Y8b 88   88 `~~88~~'                                                                                                    \s
-                       88    88V8o 88      88ooo   88         88    88      88ooo88    88                                                                                                       \s
-                       88    88 V8o88      88~~~   88         88    88  ooo 88~~~88    88                                                                                                       \s
-                      .88.   88  V888      88      88booo.   .88.   88. ~8~ 88   88    88                                                                                                       \s
-                    Y888888P VP   V8P      YP      Y88888P Y888888P  Y888P  YP   YP    YP                                                                                                       \s
+                    
+█▀█ █▀▀ █▀▀ █ █▀ ▀█▀ █▀▀ █▀█ █▀▀ █▀▄   █▀█ ▄▀█ █▀ █▀ █▀▀ █▄░█ █▀▀ █▀▀ █▀█ █▀
+█▀▄ ██▄ █▄█ █ ▄█ ░█░ ██▄ █▀▄ ██▄ █▄▀   █▀▀ █▀█ ▄█ ▄█ ██▄ █░▀█ █▄█ ██▄ █▀▄ ▄█                                                                                               \s
                                                                                                                                                                                                 \s
                                                                                                                                                                                                 \s
                     """;
         } else if (option == 5) {
             artWork = """
                                         
-                    d8888b. d88888b db      d88888b d888888b d88888b      d88888b db      d888888b  d888b  db   db d888888b\s
-                    88  `8D 88'     88      88'     `~~88~~' 88'          88'     88        `88'   88' Y8b 88   88 `~~88~~'\s
-                    88   88 88ooooo 88      88ooooo    88    88ooooo      88ooo   88         88    88      88ooo88    88   \s
-                    88   88 88~~~~~ 88      88~~~~~    88    88~~~~~      88~~~   88         88    88  ooo 88~~~88    88   \s
-                    88  .8D 88.     88booo. 88.        88    88.          88      88booo.   .88.   88. ~8~ 88   88    88   \s
-                    Y8888D' Y88888P Y88888P Y88888P    YP    Y88888P      YP      Y88888P Y888888P  Y888P  YP   YP    YP   \s
-                                                                                                                           \s
-                                                                                                                           \s
+                    
+█▀▄ █▀▀ █░░ █▀▀ ▀█▀ █▀▀   █▀▀ █░░ █ █▀▀ █░█ ▀█▀
+█▄▀ ██▄ █▄▄ ██▄ ░█░ ██▄   █▀░ █▄▄ █ █▄█ █▀█ ░█░
                     """;
         }
         System.out.println(artWork);

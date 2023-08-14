@@ -1,4 +1,4 @@
-public import java.util.Random;
+import java.util.Random;
 
 public class RandomGenerator {
 
@@ -92,6 +92,4 @@ public class RandomGenerator {
     public String getRandomNumber() {
         return randomNum;
     }
-} {
-    
 }
