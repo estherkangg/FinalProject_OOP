@@ -81,7 +81,7 @@ public class Customer {
     }
 
     /**
-     * Returns String consisting of customers data(name, age, email etc...) for displaying.
+     * Returns String consisting of customers data(name, age, email, etc...) for displaying.
      * randomIDDisplay() adds space between the userID for easy readability.
      *
      * @param i for serial numbers.
@@ -117,7 +117,7 @@ public class Customer {
     }
 
     /**
-     * Returns true if the given emailID is already registered, false otherwise
+     * Returns true if the given emailID is already registered, false otherwise.
      *
      * @param emailID to be checked in the list
      */
@@ -197,7 +197,7 @@ public class Customer {
     }
 
     /**
-     * Shows the header for printing customers data
+     * Shows the header for printing customers data.
      */
     void displayHeader() {
         System.out.println();
