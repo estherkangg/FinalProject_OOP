@@ -73,4 +73,62 @@ This diagram provides a visual representation of the classes and their relations
 - [View the Class Diagram](https://showme.redstarplugin.com/d/uoV7th0N)
 - [Edit the Class Diagram](https://showme.redstarplugin.com/s/DodK7TND)
 
----
+# Flight Reservation System Sequence Diagrams
+
+## 1. Book Flight
+![Book Flight Sequence Diagram](https://showme.redstarplugin.com/d/2o6zXrKX)
+[Edit this diagram](https://showme.redstarplugin.com/s/1RtX7ZGJ)
+
+## 2. Cancel Flight
+![Cancel Flight Sequence Diagram](https://showme.redstarplugin.com/d/9G5Z9R7P)
+[Edit this diagram](https://showme.redstarplugin.com/s/5z9Q6ZLX)
+
+## 3. Check Flight Status
+![Check Flight Status Sequence Diagram](https://showme.redstarplugin.com/d/2o6zXrKX)
+[Edit this diagram](https://showme.redstarplugin.com/s/1RtX7ZGJ)
+
+## 4. Verify Flight Association
+![Verify Flight Association Sequence Diagram](https://showme.redstarplugin.com/d/9G5Z9R7P)
+[Edit this diagram](https://showme.redstarplugin.com/s/5z9Q6ZLX)
+
+## 5. View User Flights
+![View User Flights Sequence Diagram](https://showme.redstarplugin.com/d/2o6zXrKX)
+[Edit this diagram](https://showme.redstarplugin.com/s/1RtX7ZGJ)
+
+## 6. View All Flight Passengers
+![View All Flight Passengers Sequence Diagram](https://showme.redstarplugin.com/d/9G5Z9R7P)
+[Edit this diagram](https://showme.redstarplugin.com/s/5z9Q6ZLX)
+
+## 7. View Specific Flight Passengers
+![View Specific Flight Passengers Sequence Diagram](https://showme.redstarplugin.com/d/2o6zXrKX)
+[Edit this diagram](https://showme.redstarplugin.com/s/1RtX7ZGJ)
+
+## 8. Schedule Flights
+![Schedule Flights Sequence Diagram](https://showme.redstarplugin.com/d/9G5Z9R7P)
+[Edit this diagram](https://showme.redstarplugin.com/s/5z9Q6ZLX)
+
+## 9. Add Customer to Flight
+![Add Customer to Flight Sequence Diagram](https://showme.redstarplugin.com/d/2o6zXrKX)
+[Edit this diagram](https://showme.redstarplugin.com/s/1RtX7ZGJ)
+
+## 10. Calculate Flight Time
+![Calculate Flight Time Sequence Diagram](https://showme.redstarplugin.com/d/9G5Z9R7P)
+[Edit this diagram](https://showme.redstarplugin.com/s/5z9Q6ZLX)
+
+## 11. Fetch Arrival Time
+![Fetch Arrival Time Sequence Diagram](https://showme.redstarplugin.com/d/2o6zXrKX)
+[Edit this diagram](https://showme.redstarplugin.com/s/1RtX7ZGJ)
+
+## 12. Delete Flight
+![Delete Flight Sequence Diagram](https://showme.redstarplugin.com/d/9G5Z9R7P)
+[Edit this diagram](https://showme.redstarplugin.com/s/5z9Q6ZLX)
+
+## 13. Calculate Distance
+![Calculate Distance Sequence Diagram](https://showme.redstarplugin.com/d/P3828jnQ)
+[Edit this diagram](https://showme.redstarplugin.com/s/viLkVdOl)
+
+## 14. View Flight Schedule
+![View Flight Schedule Sequence Diagram](https://showme.redstarplugin.com/d/DTTS2XCO)
+[Edit this diagram](https://showme.redstarplugin.com/s/wahdbLcw)
+
+
