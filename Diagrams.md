@@ -65,9 +65,6 @@
 [Edit this diagram if necessary.](https://showme.redstarplugin.com/s/DxsEj1AW)
 
 
-Certainly! Here's a small markdown blurb for the class diagram:
-
----
 
 ### Class Diagram for Flight Reservation System
 

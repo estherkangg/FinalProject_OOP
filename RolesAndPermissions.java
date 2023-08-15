@@ -1,4 +1,4 @@
-public class RolesAndPermissions extends user {
+public class RolesAndPermissions extends User {
     //        ************************************************************ Behaviours/Methods ************************************************************
 
     /**
